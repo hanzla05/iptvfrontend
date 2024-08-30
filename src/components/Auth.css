@@ -1,0 +1,123 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #007bff;
+  }
+  
+  .auth-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+  
+  .input-group .icon {
+    margin-right: 0.5rem;
+    color: #666;
+  }
+  
+  .input-group input {
+    flex: 1;
+    border: none;
+    outline: none;
+  }
+  
+  .password-info {
+    font-size: 0.85rem;
+    color: #666;
+    text-align: left;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+  }
+  
+  .checkbox-group label {
+    margin-left: 0.5rem;
+  }
+  
+  .checkbox-group a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .auth-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .auth-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-signup {
+    margin: 1rem 0;
+  }
+  
+  .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .social-button svg {
+    margin-right: 0.5rem;
+  }
+  
+  .login-link {
+    font-size: 0.85rem;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .alert {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .alert.success {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .alert.error {
+    background-color: #f44336;
+    color: white;
+  }
+  

@@ -1,0 +1,67 @@
+.file-manager {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .upload-section {
+    margin-bottom: 20px;
+  }
+  
+  .upload-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .upload-section input[type="file"] {
+    margin-right: 10px;
+  }
+  
+  .upload-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .files-list {
+    margin-top: 20px;
+  }
+  
+  .files-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  .files-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .files-list li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .file-thumbnail {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .file-info {
+    flex: 1;
+  }
+  
+  .file-info p {
+    margin: 5px 0;
+  }
+  
